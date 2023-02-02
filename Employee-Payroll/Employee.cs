@@ -23,3 +23,4 @@ namespace Employee_Payroll
         public double NetPay { get; set; }
     }
 }
+ 
