@@ -30,7 +30,7 @@ begin transaction
 	select @new_identity = @@IDENTITY
 	insert into Employee_Department(ID,Department,Phone,Address) values (@new_identity,@Department,@Phone,@Address)
 	insert into Payroll(ID,BasicPay,Deductions,TaxablePay,IncomeTax,NetPay) values (@new_identity,@BasicPay,@Deductions,@TaxablePay,@IncomeTax,@NetPay)
-commit transaction
+commit transaction 
 set @result = 1
 return @result
 end try
