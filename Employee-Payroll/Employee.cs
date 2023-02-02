@@ -22,4 +22,4 @@ namespace Employee_Payroll
         public double IncomeTax { get; set; }
         public double NetPay { get; set; }
     }
-}
+} 
