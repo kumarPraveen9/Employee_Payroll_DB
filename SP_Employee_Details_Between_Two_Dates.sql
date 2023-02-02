@@ -17,4 +17,4 @@ begin
 	left join Payroll on Employee_Payroll.Emp_ID = Payroll.ID
 	where StartDate between @FirstDate and @LastDate
 end
-go
+go 
