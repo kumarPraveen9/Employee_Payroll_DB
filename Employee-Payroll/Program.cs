@@ -185,7 +185,7 @@ namespace Employee_Payroll
                 }
             }
             catch (Exception)
-            {
+            { 
                 throw;
             }
         }
