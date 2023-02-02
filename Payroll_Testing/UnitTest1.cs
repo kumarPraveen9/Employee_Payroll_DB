@@ -37,5 +37,5 @@ namespace Payroll_Testing
             employee = program.UpdateSalary(Emp_ID, newSalary);
             Assert.AreEqual(newSalary, employee.Salary);
         }
-    }
+    } 
 }
