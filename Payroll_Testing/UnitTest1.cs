@@ -32,7 +32,7 @@ namespace Payroll_Testing
         [Test]
         public void Update_Salary_ForTushar()
         {
-            int Emp_ID = 1;
+            int Emp_ID = 1; 
             Int64 newSalary = 300000;
             employee = program.UpdateSalary(Emp_ID, newSalary);
             Assert.AreEqual(newSalary, employee.Salary);
