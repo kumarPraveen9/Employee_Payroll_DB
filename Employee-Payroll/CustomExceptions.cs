@@ -18,4 +18,4 @@ namespace Employee_Payroll
             this.type = type;
         }
     }
-}
+} 
