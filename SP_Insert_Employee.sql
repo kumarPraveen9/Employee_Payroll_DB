@@ -48,6 +48,6 @@ if(xact_state())=1
 		commit transaction
 		set @result = 1
 	end
-return @result
+return @result 
 end catch
 end
