@@ -43,7 +43,7 @@ namespace Payroll_Testing
             List<Employee> employees = new List<Employee>();
             DateTime FirstDate = DateTime.Parse("2017-01-01");
             DateTime LastDate = DateTime.Parse("2018-12-31");
-            employees = program.RetrieveFromDatabase_BetweenGivenDates(FirstDate, LastDate);
+            employees = program.RetrieveFromDatabase_BetweenGivenDates(FirstDate, LastDate); 
             Assert.AreEqual(3, employees.Count);
         }
     }
